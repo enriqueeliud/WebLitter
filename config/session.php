@@ -154,8 +154,8 @@ return [
     | available to in your application. A sensible default has been set.
     |
     */
-
-    'domain' => env('SESSION_DOMAIN', null),
+    
+    'domain' => env('SESSION_DOMAIN', 'https://weblitter.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------
