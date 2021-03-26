@@ -20,7 +20,7 @@ class PostController extends Controller
     //return home.blade.php template from resources/views folder
     return view('home')->withPosts($posts)->withTitle($title);
   }
-
+  
   public function create(Request $request)
   {
     // 
