@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('eliud'),
+    'key' => env('jdkG40Ku7cb+B+bWXp4ZR6baFYe6FBDR0zTjjXNxuw0='),
 
     'cipher' => 'AES-256-CBC',
 
