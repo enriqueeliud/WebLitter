@@ -154,7 +154,11 @@ return [
     | available to in your application. A sensible default has been set.
     |
     */
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> ef55467299026c1b1c25b03ebc86c79ef09c5ae1
     'domain' => env('SESSION_DOMAIN', 'https://weblitter.herokuapp.com/'),
 
     /*
