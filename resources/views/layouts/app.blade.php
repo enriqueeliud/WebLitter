@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WebLitter</title>
+     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link href="{{ secure_asset('/css/app.css') }}" rel="stylesheet">
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
