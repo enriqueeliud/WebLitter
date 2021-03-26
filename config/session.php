@@ -155,14 +155,7 @@ return [
     |
     */
     
-<<<<<<< HEAD
     'domain' => env('SESSION_DOMAIN', null),
-=======
-=======
-
->>>>>>> ef55467299026c1b1c25b03ebc86c79ef09c5ae1
-    'domain' => env('SESSION_DOMAIN', 'null'),
->>>>>>> 8cb69b449e1cc9cd7417676773d4eecc4cec0c4a
 
     /*
     |--------------------------------------------------------------------------
@@ -175,7 +168,7 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE'),
+    'secure' => env('SESSION_SECURE_COOKIE', false),
 
     /*
     |--------------------------------------------------------------------------
