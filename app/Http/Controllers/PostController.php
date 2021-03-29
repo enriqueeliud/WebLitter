@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\Posts;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PostFormRequest;
+use Illuminate\Support\Facades\DB;
 
 class PostController extends Controller
 {
